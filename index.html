@@ -1,0 +1,1267 @@
+<html>
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+<title>Прайс на ремонтно-отделочные работы БойченкоС.Л.</title>
+<script>
+var p1=1, p2=1;
+function naz(){
+p1=p2;
+rasch();
+document.getElementById('b1').value=1;
+document.getElementById('b1').style.display="inline";	
+}
+
+
+function koef()
+
+{
+p1=document.getElementById('b1').value;
+rasch();
+}
+
+function rasch(){
+	function replacer(st)
+{
+return (st* p1).toPrecision(5);
+}
+var myreg= new RegExp(/[от]*\s*[0-9]+$/);
+var mytds = document.getElementsByTagName('td');
+for (var i = 0,ai=0; i < mytds.length; i++) {
+  if (myreg.test(mytds[i].textContent)
+     &&mytds[i].textContent != mytds[i].parentNode.cells[0].textContent
+     &&mytds[i].textContent.charAt(0) != "м"
+     ) {
+    mytds[i].textContent=mytds[i].textContent.replace(/([0-9]+)$/,replacer);
+     //console.log(ai,mytds[i].textContent);
+     //mytds[i].textContent=mytds[i].textContent*0.5;
+     console.log(ai++,mytds[i].textContent);
+     
+  };
+} ;
+p2=1/p1;
+document.getElementById('b1').style.display="none";
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Прайс на ремонтные работы. Ремонт квартир и офисов в Москве. Бригада опытных отделочников со своим прорабом выполнит ремонт помещений любой сложности 
+качественно и в оптимальные сроки. Цены на ремонт - косметический, капитальный, евроремонт">
+<meta name="Keywords" content="прайс, дизайн-проекту, прорабом, расценки, цены, ремонтные, отделочные, строительные, стоимость, плиточные, работы, столярные, поклеить обои, бригада отделочников, косметический, капитальный, евроремонт, отделка, ремонт квартир, офисов в Москве">
+</head>
+<body bgcolor="#F0F8FF" leftmargin=0 marginwidth=0 topmargin=0 marginheight=0 rightmargin=0 text=000000 link=0000ff 
+vlink=0000ff>
+
+<h2>Прайс на ремонтно-отделочные работы БойченкоС.Л.</h2>
+
+
+
+
+<table bgcolor="#89AED0" width="75%" cellpadding=0 cellspacing=0 border=0 align="center">
+
+<tr><td>
+
+
+<table width="100%" cellpadding=2 cellspacing=1 border=0 class="comment8" align="center">
+
+
+
+<tr bgcolor="#D9E5F2">
+   
+<td width="5%" align="center"><b>№</b></td>
+<td  align="left">
+	<span align="left">Коэффициент :  </span>
+	<input id="b1" value=" " size=1 onchange="koef()" type="text"/>
+	<b> Наименование работ </b>
+	<input id="b2" value="Сброс" size=1 onclick="naz()" type="button"/>
+</td>
+<td  width="5%" align="center"><b>Единица измерения</b></td>
+<td  align="center"><b>Стоимость, руб.</b></td>
+
+</tr>
+
+
+
+
+<tr>
+   
+   <td bgcolor="#d1ffd1" align="center" colspan="4"><b>ДЕМОНТАЖНЫЕ РАБОТЫ</b></td>
+</tr>
+
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">1</td>
+<td  align="right">Демонтаж стен (перегородок) кирпичных (1/4, 1/2) и шлакоблочных </td>
+<td  align="center">м<sup>2</sup></td>
+
+<td  align="center">350</td>
+
+</tr>
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">2</td>
+<td  align="right">Демонтаж стен (перегородок) из ацеида, гипсолита, ГКЛ</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">250</td>
+
+</tr>
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">3</td>
+<td  align="right">Демонтаж дверных блоков</td>
+<td  align="center">ед.</td>
+<td  align="center">250</td>
+
+</tr>
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">4</td>
+<td  align="right">Демонтаж оконных блоков</td>
+<td  align="center">ед.</td>
+<td  align="center">500</td>
+
+</tr>
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">5</td>
+<td  align="right">Демонтаж плитки (пола, стен)</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">200</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">6</td>
+<td  align="right">Демонтаж пола из паркетной доски</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">100</td>
+
+</tr>
+
+
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">7</td>
+<td  align="right">Демонтаж пола из линолеума, ковролина</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">100</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">8</td>
+<td  align="right">Демонтаж  смесителей</td>
+<td  align="center">ед.</td>
+<td  align="center">150</td>
+
+</tr>
+
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">9</td>
+<td  align="right">Демонтаж  унитаза/биде</td>
+<td  align="center">ед.</td>
+<td  align="center">400</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">10</td>
+<td  align="right">Демонтаж  умывальника </td>
+<td  align="center">ед.</td>
+<td  align="center">260</td>
+
+</tr>
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">11</td>
+<td  align="right">Демонтаж  ванны</td>
+<td  align="center">ед.</td>
+<td  align="center">500</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">12</td>
+<td  align="right">Демонтаж радиаторов</td>
+<td  align="center">ед.</td>
+<td  align="center">600</td>
+
+</tr>
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">13</td>
+<td  align="right">Демонтаж штукатурного покрытия</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">150</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">14</td>
+<td  align="right">Расчистка старой краски стен</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">140</td>
+
+</tr>
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">15</td>
+<td  align="right">Расчистка старой краски потолка</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">160</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">16</td>
+<td  align="right">Снятие старых обоев</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">80</td>
+
+</tr>
+
+
+
+
+
+<tr>
+   
+   <td bgcolor="#d1ffd1" align="center" colspan="4"><b>ОБЩЕСТРОИТЕЛЬНЫЕ РАБОТЫ</b></td>
+</tr>
+
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">17</td>
+<td  align="right">Гидроизоляция пола мастиками </td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">150</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">18</td>
+<td  align="right">Гидроизоляция пола рулонными материалами (2-слоя) на битумной мастике</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">200</td>
+
+</tr>
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">19</td>
+<td  align="right">Устройство  стяжки пола самовыравнивающейся </td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">220</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">20</td>
+<td  align="right">Устройство  стяжки пола до 50 мм</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">450</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">21</td>
+<td  align="right">Устройство «сухого пола» Авангард - Кнауф (10мм)</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">500</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">22</td>
+<td  align="right">Армирование  стяжки пола</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">120</td>
+
+</tr>
+
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">23</td>
+<td  align="right">Устройство перегородок в 1/2 кирпича</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">450</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">24</td>
+<td  align="right">Устройство перегородок в 1 кирпич</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">550</td>
+
+</tr>
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">25</td>
+<td  align="right">Устройство перегородок из шлакоблоков, пазогребневых блоков</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">400</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">26</td>
+<td  align="right">Устройство стен из гипсокартона (1-слой)</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">450</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">27</td>
+<td  align="right">Устройство стен из гипсокартона  (2-слоя)</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">600</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">28</td>
+<td  align="right">Облицовка стен гипсокартоном (1-слой)</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">400</td>
+
+</tr>
+
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">29</td>
+<td  align="right">Облицовка стен гипсокартоном (2-слоя)</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">550</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">30</td>
+<td  align="right">Облицовка стен гипсокартоном на клею</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">450</td>
+
+</tr>
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">31</td>
+<td  align="right">Устройство тепло звукоизоляции (однослойной) стен из ГКЛ</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">100</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">32</td>
+<td  align="right">Армирование стен штукатурной сеткой</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">120</td>
+
+</tr>
+
+
+
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">33</td>
+<td  align="right">Штукатурка  стен</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">350</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">34</td>
+<td  align="right">Штукатурка  стен  по маякам (до 15 мм)</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">400</td>
+
+</tr>
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">35</td>
+<td  align="right">Штукатурка  потолка  по маякам (Ротбандом) (до 15 мм)</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">500</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">36</td>
+<td  align="right">Штукатурка стен (под плитку)</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">400</td>
+
+</tr>
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">37</td>
+<td  align="right">Штукатурная отделка проемов (откосов)</td>
+<td  align="center">м пог.</td>
+<td  align="center">350</td>
+
+</tr>
+
+
+
+
+
+
+
+
+
+
+<tr>
+<td bgcolor="#d1ffd1" align="center" colspan="4"><b>ОТДЕЛОЧНЫЕ РАБОТЫ</b></td>
+</tr>
+
+<tr>
+<td bgcolor="#ffe8c5" align="center" colspan="4"><b>Потолки</b></td>
+</tr>
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">38</td>
+<td  align="right">Устройство реечных подвесных  потолков</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">360</td>
+
+</tr>
+
+
+
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">39</td>
+<td  align="right">Монтаж подвесного потолка "Армстронг"</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">300</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">40</td>
+<td  align="right">Устройство подвесного потолка из гипсокартона (1-слой)</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">450</td>
+
+</tr>
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">41</td>
+<td  align="right">Устройство разноуровнего потолка из ГКЛ с прямолинейными элементами</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">700</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">42</td>
+<td  align="right">Устройство разноуровнего потолка из ГКЛ сложных геометрических форм с криволинейными элементами</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">900</td>
+
+</tr>
+
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">43</td>
+<td  align="right">Оклейка потолка сеткой "Строби", "паутинка"</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">150</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">44</td>
+<td  align="right">Грунтовка потолка</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">50</td>
+
+</tr>
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">45</td>
+<td  align="right">Шпатлевка потолка</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">300</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">46</td>
+<td  align="right">Окраска потолка</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">220</td>
+
+</tr>
+
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">47</td>
+<td  align="right">Устройство карниза декоративного (галтель)</td>
+<td  align="center">м пог.</td>
+<td  align="center">140</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">48</td>
+<td  align="right">Шпатлевка и окраска карниза декоративного (галтель)</td>
+<td  align="center">м пог.</td>
+<td  align="center">120</td>
+
+</tr>
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">49</td>
+<td  align="right">Финишная шпаклевка потолка по стеклохолсту</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">180</td>
+
+</tr>
+
+
+
+<tr>
+<td bgcolor="#ffe8c5" align="center" colspan="4"><b>Стены</b></td>
+</tr>
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">50</td>
+<td  align="right">Оклейка стен сеткой "Строби", "паутинка"</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">150</td>
+
+</tr>
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">51</td>
+<td  align="right">Шпатлевка гипсокартона</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">180</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">52</td>
+<td  align="right">Шпатлевка стен</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">200</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">53</td>
+<td  align="right">Грунтовка стен (включая каждый этап)</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">50</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">54</td>
+<td  align="right">Оклейка стен обоями (без подбора рисунка)</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">220</td>
+
+</tr>
+
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">55</td>
+<td  align="right">Оклейка стен обоями (с подбором рисунка)</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">250</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">56</td>
+<td  align="right">Оклейка стен обоями под окраску</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">200</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">57</td>
+<td  align="right">Окраска стен по обоям</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">200</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">58</td>
+<td  align="right">Окраска стен по шпатлевке</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">200</td>
+
+</tr>
+
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">59</td>
+<td  align="right">Грунтовка откосов</td>
+<td  align="center">м пог.</td>
+<td  align="center">40</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">60</td>
+<td  align="right">Шпатлевка откосов (шириной до 400 мм) </td>
+<td  align="center">м пог.</td>
+<td  align="center">300</td>
+
+</tr>
+
+
+
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">61</td>
+<td  align="right">Окраска откосов</td>
+<td  align="center">м пог.</td>
+<td  align="center">170</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">62</td>
+<td  align="right">Монтаж малярных уголков</td>
+<td  align="center">м пог.</td>
+<td  align="center">100</td>
+
+</tr>
+
+
+
+
+<tr>
+<td bgcolor="#ffe8c5" align="center" colspan="4"><b>Плиточные работы</b></td>
+</tr>
+
+
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">63</td>
+<td  align="right">Облицовка стен керамической плиткой </td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">800</td>
+
+</tr>
+
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">64</td>
+<td  align="right">Облицовка откосов, полуколонн керамической плиткой </td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">от 1000</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">65</td>
+<td  align="right">Облицовка пола  керамической плиткой</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">800</td>
+
+</tr>
+
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">66</td>
+<td  align="right">Сверление отверстий в керамической плитке</td>
+<td  align="center">ед.</td>
+<td  align="center">50</td>
+
+</tr>
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">67</td>
+<td  align="right">Подрез плитки на внешних углах под углом</td>
+<td  align="center">м пог.</td>
+<td  align="center">700</td>
+
+</tr>
+
+
+
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">68</td>
+<td  align="right">Затирка швов</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">100</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">69</td>
+<td  align="right">Установка бордюра, плинтуса керамического</td>
+<td  align="center">м пог.</td>
+<td  align="center">300</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">70</td>
+<td  align="right">Обработка углов помещений уголками, раскладками</td>
+<td  align="center">м пог.</td>
+<td  align="center">80</td>
+
+</tr>
+
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">71</td>
+<td  align="right">Мозаика</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">от 1500</td>
+
+</tr>
+
+
+
+
+<tr>
+<td bgcolor="#ffe8c5" align="center" colspan="4"><b>Полы</b></td>
+</tr>
+
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">72</td>
+<td  align="right">Стяжка пола до 50 мм</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">450</td>
+
+</tr>
+
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">73</td>
+<td  align="right">Настил фанеры на пол под линолеум, паркет</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">300</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">74</td>
+<td  align="right">Устройство пола из коммерческого линолеума </td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">230</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">75</td>
+<td  align="right">Устройство пола из ковролина, линолеума</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">200</td>
+
+</tr>
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">76</td>
+<td  align="right">Настилка подложки под ламинат, паркетн. доску</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">20</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">77</td>
+<td  align="right">Устройство пола из ламината с замком</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">300</td>
+
+</tr>
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">78</td>
+<td  align="right">Устройство пола из паркетной доски</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">350</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">79</td>
+<td  align="right">Устройство тепло звукоизоляции пола (однослойной)</td>
+<td  align="center">м<sup>2</sup></td>
+<td  align="center">100</td>
+
+</tr>
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">80</td>
+<td  align="right">Окраска плинтуса</td>
+<td  align="center">м пог.</td>
+<td  align="center">70</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">81</td>
+<td  align="right">Устройство плинтуса с кабель каналом</td>
+<td  align="center">м пог.</td>
+<td  align="center">150</td>
+
+</tr>
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">82</td>
+<td  align="right">Устройство плинтуса деревянного</td>
+<td  align="center">м пог.</td>
+<td  align="center">220</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">83</td>
+<td  align="right">Запил деревянных плинтусов по углам</td>
+<td  align="center">ед.</td>
+<td  align="center">100</td>
+
+</tr>
+
+
+
+<tr>
+   
+   <td bgcolor="#d1ffd1" align="center" colspan="4"><b>СТОЛЯРНЫЕ РАБОТЫ</b></td>
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">84</td>
+<td  align="right">Установка подоконников</td>
+<td  align="center">ед.</td>
+<td  align="center">700</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">85</td>
+<td  align="right">Установка дверей</td>
+<td  align="center">ед.</td>
+<td  align="center">2200</td>
+
+</tr>
+
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">86</td>
+<td  align="right">Установка замков</td>
+<td  align="center">ед.</td>
+<td  align="center">350</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">87</td>
+<td  align="right">Устройство наличника</td>
+<td  align="center">м пог.</td>
+<td  align="center">80</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">88</td>
+<td  align="right">Устройство добора</td>
+<td  align="center">м пог.</td>
+<td  align="center">200</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#f0f8ff">
+   
+<td  align="center">89</td>
+<td  align="right">Установка декоративных порожков</td>
+<td  align="center">ед.</td>
+<td  align="center">150</td>
+
+</tr>
+
+
+
+
+<tr bgcolor="#ffffff">
+   
+<td  align="center">90</td>
+<td  align="right">Установка дверных ограничителей</td>
+<td  align="center">ед.</td>
+<td  align="center">100</td>
+
+</tr>
+
+
+
+
+
+
+
+</table>
+
+</td></tr></table>
+</td></tr>
+
+
+
+
+
+
+<tr><td align="left" colspan="2">&nbsp;</td></tr>
+
+
+
+<tr><td class="comment2" align="left" colspan="2">&nbsp;</td></tr>
+
+<tr><td colspan="2"><p class="comment">
+
+
+
+</p>
+
+</td></tr>
+
+</table>
+
+
+
+
+<table align="center" class="comment8">
+<tr>
+<td>
+<p></p>
+
+</td></tr></table>
+
+
+
+<p align="center" class="comment">
+
+
+
+
+
+
+</BODY></html>
