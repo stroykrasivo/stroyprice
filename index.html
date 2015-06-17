@@ -1,7 +1,7 @@
 <html>
 <head>
 <link href="style.css" rel="stylesheet" type="text/css">
-<title>Прайс на ремонтно-отделочные работы БойченкоС.Л.</title>
+<title>Прайс на строительно-отделочные работы БойченкоС.Л.</title>
 <script>
 var p1=1, p2=1;
 function naz(){
@@ -22,11 +22,11 @@ rasch();
 function rasch(){
 	function replacer(st)
 {
-return Math.round(st/10* p1)*10;
+return Math.round(Math.round(st/3* p1)*0.3)*10;
 }
 var myreg= new RegExp(/[от]*\s*[0-9]+$/);
 var mytds = document.getElementsByTagName('td');
-for (var i = 0,ai=0; i < mytds.length; i++) {
+for (var i = 0, ai=0; i < mytds.length; i++) {
   if (myreg.test(mytds[i].textContent)
      &&mytds[i].textContent != mytds[i].parentNode.cells[0].textContent
      &&mytds[i].textContent.charAt(0) != "м"
@@ -34,7 +34,7 @@ for (var i = 0,ai=0; i < mytds.length; i++) {
     mytds[i].textContent=mytds[i].textContent.replace(/([0-9]+)$/,replacer);
      //console.log(ai,mytds[i].textContent);
      //mytds[i].textContent=mytds[i].textContent*0.5;
-     console.log(ai++,mytds[i].textContent);
+     console.log(ai++,mytds[i].textContent,mytds[i].valueOf());
      
   };
 } ;
@@ -48,7 +48,7 @@ document.getElementById('b1').style.display="none";
 <body bgcolor="#F0F8FF" leftmargin=0 marginwidth=0 topmargin=0 marginheight=0 rightmargin=0 text=000000 link=0000ff 
 vlink=0000ff>
 
-<h2>Прайс на ремонтно-отделочные работы Бойченко С.Л.</h2>
+<h2 align="center">Прайс на строительно-отделочные работы Бойченко С.Л.</h2>
 
 
 
@@ -584,6 +584,7 @@ vlink=0000ff>
 </tr>
 
 
+
 <tr bgcolor="#f0f8ff">
    
 <td  align="center">41</td>
@@ -612,9 +613,9 @@ vlink=0000ff>
 <tr bgcolor="#f0f8ff">
    
 <td  align="center">43</td>
-<td  align="right">Оклейка потолка сеткой "Строби", "паутинка"</td>
+<td  align="right">Устройство подвесного потолка из пластиковой "вагонки"</td>
 <td  align="center">м<sup>2</sup></td>
-<td  align="center">150</td>
+<td  align="center">350</td>
 
 </tr>
 
